@@ -11,5 +11,4 @@ Repo serves as backend of General University App
 ## Technologies
 - NodeJS
 - MongoDB
-- GraphQl
 - JavaScript
