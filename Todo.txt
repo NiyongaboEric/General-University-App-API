@@ -1,0 +1,43 @@
+If a university exist  
+  don't save it
+
+If a university doesn't exist
+  save it
+
+If university exist and have a programs
+  save programs under it
+
+If university not exit and have programs
+  save programs under it
+
+
+[
+	{
+		university_info: {
+			university_name
+			university_logo
+			university_description
+			university_headquarter
+		}
+		program_info: [
+			{
+				program_name
+				program_description
+				program_location
+				program_contact
+				program_tuittion_fee
+				program_deadline
+				program_class_size
+				program_campus_name_list        []
+				program_study_language_list     []
+				program_season_study_list       [Spring, Summer, Fall, Winter]
+				program_degree_list             [Certificate, Bachelor, Master's, Doctoral, Professional, Diploma, High school, Language, Vocational, Special]
+				program_study_mode_list         [Online, Distance, Campus, Full-time, Part-time]
+			}
+		]
+	},
+]
+
+
+
+
